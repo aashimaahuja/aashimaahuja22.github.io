@@ -1,0 +1,26 @@
+.location {
+    display: flex;
+}
+
+.location__icon{
+    margin-right: 4px;
+    /* padding:2px; */
+    /* background-color: aliceblue; */
+}
+
+.location__icon > svg {
+    width: 26px;
+    height: 28px;
+    background: white;
+    padding: 4px;
+}
+
+.location__text {
+    background: white;
+    color: black;
+    font-size: 14px;
+    width: auto;
+    max-height: 30px;
+    padding: 3px;
+    font-weight: 600;
+}
